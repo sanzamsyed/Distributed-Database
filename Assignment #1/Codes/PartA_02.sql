@@ -14,5 +14,5 @@ GROUP BY snum
 ORDER BY snum;
 
 SELECT sname as Name, major as Major from Student WHERE 
-snum IN (SELECT StudentId from myView2 WHERE 
-	CourseTaken = (SELECT MAX(CourseTaken) from myView2));
+	snum IN (SELECT StudentId from myView2 WHERE 
+		CourseTaken = (SELECT MAX(CourseTaken) from myView2));
