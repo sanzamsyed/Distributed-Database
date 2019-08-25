@@ -1,0 +1,7 @@
+**Execute DB.sql
+
+Use scripts to solve the following:
+
+1) Query - Find the names of the faculty members whose offered courses have less than 7 or greater than 10 students
+
+2) PL/SQL block - Count and print the number of Level-2 students who are enrolled in a course taught by 'Zobair'
