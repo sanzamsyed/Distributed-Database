@@ -1,0 +1,24 @@
+Question - 01. 
+Input: 
+	Total Chocolates
+	Total People
+	
+Output: 
+	"Chocolate is divisible"/"Chocolate is not divisible"
+
+Constraints:
+	1.The output message must be displayed from a PROCEDURE.
+	2.There should be three seperate files for each problem, function.sql, proceudre.sql and main.sql.
+
+
+
+Question - 02.
+
+Input:
+	Four integers;
+Output: 
+	"The largest number is : "
+
+Constraints:
+	1.The output message must be displayed from a PROCEDURE.
+	2.There should be three seperate files for each problem, function.sql, proceudre.sql and main.sql.
