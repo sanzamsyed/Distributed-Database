@@ -6,13 +6,7 @@
 ** DATE : 19.07.19
 */
 
-CREATE OR REPLACE view myView2 as
-SELECT snum as StudentId, count(cnum) as CourseTaken 
-FROM Enrolled
-WHERE snum in (SELECT snum from Student) 
-GROUP BY snum 
-ORDER BY snum;
+create or replace view myView as
+select snum as StudentId, count(cnum) as CourseTaken from enrolled group by snum order by snum;
 
-SELECT sname as Name, major as Major from Student WHERE 
-	snum IN (SELECT StudentId from myView2 WHERE 
-		CourseTaken = (SELECT MAX(CourseTaken) from myView2));
+select sname as Name ,major as Major from student where snum in (select StudentId from myView where CourseTaken = (select max(CourseTaken) from myView));
