@@ -1,5 +1,5 @@
 -- Input : ShopId
--- Output: Corresponding information of most Costly Cake sold by that shop.
+-- Output: Information of the most Costly Cake sold by that shop.
 
 set serveroutput on
 
