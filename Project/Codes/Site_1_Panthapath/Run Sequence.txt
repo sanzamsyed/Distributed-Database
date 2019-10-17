@@ -1,0 +1,7 @@
+1.Create Tables
+2.Insert 
+3.Create Links
+4.Create Views
+5.Create Procedures
+6.Create Triggers
+7.Run 'Menu.sql'
